@@ -49,6 +49,16 @@ display: contents;
     width: 400px;
     font-weight: bolder;
 }
+.comp{
+    font-size: 60px;
+    width: 400px;
+    font-weight: bolder;
+}
+.compp{
+    font-size: 60px;
+    width: 400px;
+    font-weight: bolder;
+}
 .wer{
     font-size: 20px;
     width: 370px;
@@ -56,22 +66,47 @@ display: contents;
 .broad{
     font-weight: light;
 }
+.pricing{
+    /* text-align: center; */
+    justify-content: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    
+}
 @media screen and (max-width:576px){
 
     html,body{
         width: 100%;
+        overflow-x: hidden;
     }
    .bt{
     width: 100% !important;
-    
+    /* margin-left: -100px;     */
    }
    .bn{
     display: flex;
     align-items: center;
+    gap: 20px;
     flex-direction: row;
+    margin-left: -30px;
+   }
+   .bo{
+    margin-left: 4px;
+   }
+   
+   .bl{
+    margin-left: 5px;
+   }
+   .none{
+    display: none;
    }
     .je{
         display: none;
+    }
+    .im{
+        margin-left: 50px;
     }
     .simp p{
         font-size: 30px;
@@ -86,12 +121,29 @@ display: contents;
         /* margin-left: 0px 0px 0px -9000px; */
     }
     .textslid{
-        margin: 0px 0px 0px 20px;
+        margin: 30px 0px 0px 0px;
         width: 100%;
     }
-    .wer{
-        margin-left: -0px;
+    .pricing{
+        display: none;
     }
+    .comp{
+        font-size:25px;
+    }
+    .wer{
+        /* margin-left: -30px; */
+    }
+    .col{
+        margin-left: -32px;
+    }
+    .comp{
+        margin-left: -10px;
+    }
+    .compp{
+        margin-left: -20px;
+        font-size: 25px;
+    }
+  
   }
 
 
